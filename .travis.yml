@@ -6,3 +6,6 @@ php:
 script:
    - composer install
    - vendor/bin/phpunit
+
+notifications:
+    slack: epsi-ic:Q5TUTkIv6U8rufTM3TFZk80J
